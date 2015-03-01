@@ -1,0 +1,55 @@
+<style>
+html {
+  background-color: black;  
+}
+
+#metadataForm {
+  width: 750px;
+  height: 500px;
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  font-size: 150%;
+  background-color: #00003D; 
+  color: #7575C8;
+
+  border-width:5px;	
+  border-style:inset;
+
+  padding: 25px;
+}
+
+input {
+  background-color:#333333;
+  color:#999999;
+}
+
+</style>
+
+
+
+<form id='metadataForm'>
+  <input id="screen_name" name="screen_name" type="text">
+  <input id="state" name="state" type="text">
+  <input id="first_name" name="first_name" type="text">
+  <input id="last_name" name="last_name" type="text">
+  <input id="party" name="party" type="text">
+  <input id="office" name="office" type="text">
+  <input id="level_of_government" name="level_of_government" type="text">
+  <input id="term_start_date" name="term_start_date" type="text">
+  <input id="term_end_date" name="term_end_date" type="text">
+  <input id="submitButton" type="submit" value="Submit">
+</div>
+
+
+
+<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="jquery.watermark.min.js"></script>
+<script type="text/javascript" src="jquery.serialize-object.min.js"></script>
+<script type="text/javascript" src="metadataCollector.js"></script>
